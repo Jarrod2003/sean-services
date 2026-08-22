@@ -53,3 +53,34 @@ footer {
     text-align: center;
     padding: 20px;
 }
+/* Professional Header */
+
+header {
+    background-color: #0b3d91;
+    color: white;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+    gap: 25px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffd700;
+}
