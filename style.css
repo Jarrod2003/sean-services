@@ -348,3 +348,12 @@ nav a:hover {
 .contact-box a:hover {
     text-decoration: underline;
 }
+/* Logo Styling */
+
+.logo span {
+    color: #ffd700;
+}
+
+.logo {
+    letter-spacing: 1px;
+}
