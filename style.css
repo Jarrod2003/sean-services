@@ -84,3 +84,61 @@ nav a {
 nav a:hover {
     color: #ffd700;
 }
+/* Home / Hero Section */
+
+.hero {
+    min-height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #eaf2ff;
+}
+
+.hero-content {
+    max-width: 800px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: #0b3d91;
+}
+
+.hero p {
+    font-size: 19px;
+    line-height: 1.7;
+    margin-bottom: 30px;
+}
+
+/* Home buttons */
+
+.hero-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 14px 25px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn.primary {
+    background-color: #0b3d91;
+    color: white;
+}
+
+.btn.secondary {
+    background-color: white;
+    color: #0b3d91;
+    border: 2px solid #0b3d91;
+}
+
+.btn:hover {
+    opacity: 0.85;
+}
