@@ -322,4 +322,19 @@ nav a:hover {
         grid-template-columns: 1fr;
     }
 
+}/* WhatsApp Button */
+
+.whatsapp-btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 12px 20px;
+    background-color: #25D366;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.whatsapp-btn:hover {
+    opacity: 0.85;
 }
