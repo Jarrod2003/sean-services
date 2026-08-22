@@ -337,4 +337,14 @@ nav a:hover {
 
 .whatsapp-btn:hover {
     opacity: 0.85;
+}/* Email Link */
+
+.contact-box a {
+    color: #0b3d91;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.contact-box a:hover {
+    text-decoration: underline;
 }
