@@ -142,3 +142,50 @@ nav a:hover {
 .btn:hover {
     opacity: 0.85;
 }
+/* Services Section */
+
+.services {
+    background-color: white;
+    text-align: center;
+    max-width: 1100px;
+}
+
+.services h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.section-intro {
+    color: #555;
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.service-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+}
+
+.service-card {
+    background-color: #f4f7fb;
+    padding: 30px;
+    border-radius: 10px;
+    border: 1px solid #e1e7ef;
+    transition: transform 0.3s ease;
+}
+
+.service-card h3 {
+    font-size: 22px;
+    color: #0b3d91;
+    margin-bottom: 15px;
+}
+
+.service-card p {
+    line-height: 1.6;
+    color: #555;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+}
